@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    
+</head>
+<body>
+    
+    <form method="post" action="#">
+        <div class="center">
+            <h1 >REGISTER</h1>   
+            <div class="form-group col-md-6">
+                <label>Username</label> 
+                <input
+                align="right"
+                type="text"
+                placeholder=""
+                class="form-control"
+                id="user"
+                name="user"
+                /> <br> <br>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="email">Email</label>
+                <input
+                type="email"
+                placeholder=""
+                class="form-control"
+                id="email"
+                name="email"
+                /> <br> <br>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="email">Phone</label>
+                <input
+                type="text"
+                placeholder=""
+                class="form-control"
+                id="phone"
+                name="phone"
+                /> <br> <br>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="email">Password</label>
+                <input
+                type="password"
+                placeholder=""
+                class="form-control"
+                id="pass"
+                name="pass"
+                /> <br> <br>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="branch">Enter your branch: </label> 
+                <input list="branch" >
+                <datalist id = "branch">
+                    <option value="CSE"></option>
+                    <option value="Ocean"></option>
+                    <option value="Civil"></option>
+                    <option value="MCA"></option>
+                </datalist>  <br> <br>
+            </div>
+            <div>
+                <label for="year">Current year: </label> 
+                <input type="radio" name="1st" value="">
+                <label for="1st">1st year</label>
+                <input type="radio" name="2nd" value="">
+                <label for="2nd">2nd year</label>
+                <input type="radio" name="3rd" value="">
+                <label for="3rd">3rd year</label>
+                <input type="radio" name="4th" value="">
+                <label for="4th">4th year</label>
+            </div> <br> 
+            <div>
+                <label for="year">Skill</label> 
+                <input type="radio" name="basic" value="">
+                <label for="basic">Basic</label>
+                <input type="radio" name="inter" value="">
+                <label for="inter">Intermediate</label>
+                <input type="radio" name="Expert" value="">
+                <label for="Expert">Expert</label>
+            </div> 
+            <br>
+            <div>
+                <fieldset>
+                    <legend> Interests: </legend>
+                    <input type="checkbox" name="coding" value="">
+                    <label for="coding">Coding</label> <br>
+                    <input type="checkbox" name="Dancing" value="">
+                    <label for="Dancing">Dancing</label> <br>
+                    <input type="checkbox" name="Volleyball" value="">
+                    <label for="Volleyball">Volleyball</label>
+                </fieldset>
+            </div> <br>
+            <div class="form-group col-md-6">
+                <label for="email">Address</label>
+                <textarea
+                rows="3" 
+                cols="34"
+                type="text"
+                placeholder=""
+                class="form-control"
+                id="address"
+                name="address"
+                >
+                </textarea>
+            </div>
+            <br>
+            <button  class="btn" type="submit">Submit</button>
+        </div>
+        
+    </form>
+</body>
+</html>
